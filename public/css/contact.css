@@ -1,0 +1,145 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 16px 0px; */
+	margin-bottom: 200px ;
+	
+}
+
+.contact-left {
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+	
+}
+
+.download {
+    background-color: aquamarine;
+    padding: 8px 16px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.download a {
+    text-decoration: none;
+    color: black;
+}
+
+.download-icon {
+    margin-right: 5px;
+}
+
+/* contact form*/
+
+.download1 {
+    /* background-image: linear-gradient(90deg, rgb(107, 205, 170) 0%, rgba(46,208,179,1) 35%, rgba(12,205,213,1) 100%); */
+	background-color: #427D9D;
+    color: white;
+    padding: 8px 0px;
+    margin-right: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.download1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.download-icon {
+    margin-right: 5px;
+}
+
+.say{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.download1 input,textarea{
+    border: none;
+    margin: 4px 0px;
+    padding: 4px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 6px;
+    width: 80%;
+}
+
+.download1 input,textarea :focus {
+    outline: none;
+}
+.download1 textarea{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.sending{
+    
+    background-color: #04364A;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sending:hover{
+    background-color: #b5c8d0;
+	color: black;
+}
+
+.or-separator{
+    font-size: 24px;
+    padding: 20px;
+}
+
+.contact_photo{
+    width: 70%;
+}
+
+@media only screen and (max-width : 720px) {
+    .contact-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+		margin-bottom: 150px ;
+    }
+
+    .contact-left {
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .download {
+        font-size: 16px;
+    }
+    .download1{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+}

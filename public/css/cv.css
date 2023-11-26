@@ -1,0 +1,43 @@
+#portfolio img {
+	height: 300px;
+	object-fit: cover;
+}
+
+#cv img {
+	width: 230px;
+}
+
+.social-icons a {
+	width: 40px;
+	height: 40px;
+}
+
+.github-social{
+	background-image: url("../images/github_color.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.github-social-footer{
+	background-image: url("../images/github.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.facebook-social{
+	background-image: url("../images/facebook_color.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.instagram-social{
+	background-image: url("../images/instagram_color.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.linkedin-social{
+	background-image: url("../images/linkedin_color.png");
+	background-size: cover;
+	background-position: center;
+}
