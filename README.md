@@ -8,6 +8,8 @@ How to set up:
 
 - First, clone the project from github.
 - Secondly, install dependencies by ```composer install```
-- configure the .env file (thing to remember: for sending emailJS have to give  SERVICE_ID,TEMPLATE_ID,USER_ID)
+- create a .env file and copy paste everything from .env.example 
+- run ```php artisan key:generate``` to generate an application key
+- configure the .env file (thing to remember: for sending emailJS have to give  SERVICE_ID, TEMPLATE_ID, USER_ID of your own)
 - lastly, run ```php artisan serve``` to run the project
 
